@@ -8,7 +8,7 @@ let Business = new Schema({
     businessName:{
         type:String
     },
-    businessGSTNumber:{
+    businessGstNumber:{
         type:Number
     }
 },{
