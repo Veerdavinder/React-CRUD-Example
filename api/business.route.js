@@ -39,7 +39,7 @@ businessRoutes.route('/update/:id').post(function(req,res){
         else{
         business.personName = req.body.personName;
         business.businessName=req.body.businessName;
-        business.businessGSTNumber = req.body.businessGSTNumber;
+        business.businessGstNumber = req.body.businessGstNumber;
 
         business.save().then(business =>{
             res.json('Update Complete');
